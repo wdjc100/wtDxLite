@@ -5,10 +5,12 @@ Python program to pass DX cluster spots from DXLite to Win-Test
 
 ### Windows
 
-Install Python 3 [https://www.python.org/downloads/] (Important - when prompted, ensure you also install 'pip')
+Install Python 3 [https://www.python.org/downloads/] *(Important - when prompted, ensure you also install 'pip')*
+
 Install PyQT4:
 * Download latest WHL file for your Python 3 version from http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4
 * Install using `pip3 install [filename].whl` from the command line
+
 Install PyZMQ:
 * Install using `pip3 install zmq` from the command line
 
@@ -16,6 +18,7 @@ Install PyZMQ:
 
 Install Python 3 & PyQT4
 * `apt-get install python3 python3-pip python3-pyqt4`
+
 Install PyZMQ:
 * `pip3 install zmq`
 
@@ -29,4 +32,5 @@ I created this 'Just Because I Could', however there are a couple of reasons I c
 
 ## Credits
 Thanks are due to Michael G7VJR for the DXLite tool which this program uses. (http://dxlite.g7vjr.org/) 
+
 More info on the Zero Message Queue: http://g7vjr.org/2013/09/dxlite-implemented-as-a-zero-message-queue-json/
